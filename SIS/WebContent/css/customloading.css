@@ -1,0 +1,13 @@
+#yui-cms-loading {
+    background:#FFFFFF;
+	color: #333333;
+    display: none;
+}
+    #yui-cms-loading #yui-cms-float {
+        text-align: center;
+        font-size: 80%;
+        background-image: url(loading.gif);
+        background-repeat:no-repeat;
+        background-position: top;
+        padding-top: 20px;
+    }

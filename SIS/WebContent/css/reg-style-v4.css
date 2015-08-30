@@ -1,0 +1,97 @@
+html{background:#fff}
+body{width:95%;margin:0px auto;padding:0px 0px 0px 0px}
+a:link,a:visited{text-decoration:none;outline:none}
+a:hover{text-decoration:underline;outline:none}
+.blue{color:#0066BD}
+.smalldgray{font:normal 11px Tahoma;color:#999}
+.smallgreenlink{font:normal 11px Tahoma;color:#1A65C2}
+
+/*Login layer style starts */
+#login-band {height:36px;background:url(/imgs/home/sep09/login-band-1.gif) repeat-x 0px 0px;position:relative}
+#login-band #small {font:normal 14px arial;color:#ccc;padding:7px 10px 0px 0px;text-align:right;margin:0px}
+#login-band #small b {margin:0px;padding-top:4px;float:right;font-weight:normal;display:block}
+#login-band #small a:link,#login-band #small a:visited {color:#59AD11;text-decoration:none;outline:none}
+#login-band #small a:hover {text-decoration:underline}
+#login-band #small span {text-align:left;width:52px;height:19px;float:right;background:url(/imgs/home/sep09/login-band-1.gif) no-repeat 0px -36px;margin-left:5px;font-size:12px;cursor:pointer;padding:3px 0px 0px 8px}
+#login-band #small span a {display:block;color:#000;text-decoration:none}
+#login-band #small .hover {background:url(/imgs/home/sep09/login-band-1.gif) no-repeat 0px -93px}
+#login-band #login_layer {position:absolute;top:7px;right:10px;width:311px;z-index:1000;font:normal 12px arial;text-align:left}
+#login-band #login_layer a.main:link,#login-band #login_layer a.main:visited,#login-band #login_layer a.main:hover {display:block;padding:2px 0 0 8px;color:#000;text-decoration:none}
+/*Login layer style ends */
+
+#logo_wrap .right{float:left;width:430px;font:normal 12px arial;color:#000}
+#logo_wrap .right .link1{float:right;min-width:280px;*width:280px;text-align:right;padding:5px 0px;border-bottom:dotted 1px #777}
+#logo_wrap .right .link1 a{font-weight:bold;color:#1F79C4}
+#logo_wrap .right .tollfree{float:right;border:solid 1px #DEA303}
+#logo_wrap .right .tollfree span{float:left;width:97px;background:url(/imgs/registration/toll-free.gif) repeat-x top left;text-align:center;font-size:11px;display:block;padding:3px 0px}
+#logo_wrap .right .tollfree div {float:left;padding:2px 10px 0px 10px;font-style:normal}
+#logo_wrap .right .tollfree div a {color:#1F79C4}
+
+#logo_wrap {width:760px;margin:4px auto;font:normal 12px/15px arial}
+#logo_wrap a {color:#6B7B84}
+#logo_wrap div {float:left}
+#logo_wrap div b {display:block;width:167px;height:36px;overflow:hidden;position:relative;margin-top:2px}
+#logo_wrap div b img {border:none;width:167px;height:180px;clear:both;position:absolute;top:0px;left:0px}
+#logo_wrap div h1 {margin:4px 0px;font:normal 13px arial;color:#6C6C6C}
+#logo_wrap div span {float:left;display:block;font-size:11px;text-align:center}
+#logo_wrap div span a{color:#1160C5}
+
+#formarea{border:solid 1px #CF7200;border-top:none;font:normal 12px/15px arial}
+#formarea .heading{background:url(heading-bg.gif) repeat-x top left;height:35px;font:normal 12px arial;color:#000}
+#formarea .heading span{display:block;float:left;margin:6px 15px 0px 16px;_margin:6px 15px 0px 8px;font-size:18px;color:#fff}
+#formarea .heading div{display:block;float:left;margin:12px 0px 0px 0px}
+
+#formarea .bg{background:#F7F5DA;padding:20px}
+#formarea .bg .form{border:solid 1px #E3E1D2;background:#fff;width:100%;font:normal 12px arial;color:#000}
+#formarea .bg .form .error_block{border:solid 1px #000;width:487px;border:solid 1px #c00;margin:15px 0px 0px 15px;background:#FFFEF4;font:bold 11px arial;color:#c00}
+#formarea .bg .form .error_block span {display:block;overflow:hidden;position:relative;width:25px;height:33px;margin:6px 10px 0px 15px;_margin:6px 10px 0px 06px;float:left}
+#formarea .bg .form .error_block span img{border:none;position:absolute;left:0px;top:-62px;vertical-align:bottom}
+#formarea .bg .form .wrapper{padding:40px;font:normal 13px arial;color:#434343}
+#formarea .bg .form .wrapper a{color:#1F79C4}
+#formarea .bg .form .wrapper label{float:left;font:normal 13px arial;color:#434343;width:150px;background:url(/imgs/registration/colun.gif) no-repeat right -5px;height:5px}
+#formarea .bg .form .wrapper .input1{float:left;width:192px;height:20px;border:solid 1px #BDD6A8;font:normal 13px arial;color:#434343;margin-left:10px;background:#F4F4F4 url(/imgs/registration/input-bg.gif) repeat-x;padding:1px 0px}
+#formarea .bg .form .wrapper .input3{float:left;width:300px;height:20px;border:solid 1px #BDD6A8;font:normal 13px arial;color:#434343;margin-left:10px;background:#F4F4F4 url(/imgs/registration/input-bg.gif) repeat-x;padding:1px 0px}
+
+.field_filled{float:left;width:192px;height:20px;border:solid 1px #BDD6A8;font:normal 13px arial;color:#434343;margin-left:10px;background:#F4F4F4 url(/imgs/registration/input-bg.gif) repeat-x;padding:1px 0px}
+#formarea .bg .form .wrapper .select1{background:#FAFAFA;width:192px;height:24px;border:solid 1px #BDD6A8;font:normal 13px arial;color:#434343;margin-left:10px;padding:1px 0px}
+#formarea .bg .form .wrapper br{clear:left}
+#formarea .bg .form .wrapper b{font:normal 18px arial;color:#4EA701}
+#formarea .bg .form .creative{width:312px;float:left;margin-top:0px}
+#formarea .bg .form .creative .text{margin:200px 0px 0px 20px;font:normal 14px/24px arial;color:#68A436}
+#formarea .bg .form .creative .text span{display:block;overflow:hidden;position:relative;width:15px;height:12px;margin:7px 9px 0px 0px;float:left}
+#formarea .bg .form .creative .text span img{border:none;position:absolute;left:0px;top:0px;vertical-align:bottom}
+
+#formarea .bg .form .creative1{width:312px;float:left;margin-top:0px}
+#formarea .bg .form .creative1 .text{margin:90px 0px 0px 20px;font:normal 14px/24px arial;color:#68A436}
+#formarea .bg .form .creative1 .text span{display:block;overflow:hidden;position:relative;width:15px;height:12px;margin:7px 9px 0px 0px;float:left}
+#formarea .bg .form .creative1 .text span img{border:none;position:absolute;left:0px;top:0px;vertical-align:bottom}
+
+.input2{float:left;width:192px;height:20px;border:solid 1px #D60000;font:normal 13px arial;color:#434343;margin-left:10px;background:#F4F4F4 url(/imgs/registration/input-bg.gif) repeat-x;padding:1px 0px}
+.field_err{float:left;width:192px;height:20px;border:solid 1px #D60000;font:normal 13px arial;color:#434343;margin-left:10px;background:#F4F4F4 url(/imgs/registration/input-bg.gif) repeat-x;padding:1px 0px}
+.select_error{margin-left:10px;float:left;padding:1px}
+.error{float:left;width:300px;margin:0px 0px 0px 10px;height:24px;background:url(/imgs/registration/hint.gif) no-repeat -11px -11px;font:normal 11px arial;color:#DB0006}
+.error span {margin-left:15px;display:block;padding-top:3px}
+.error2{display:none;float:left;width:300px;margin:0px 0px 0px 10px;height:24px;font:normal 11px arial;color:#DB0006}
+.error2 span {margin-left:15px;display:block;padding-top:3px}
+
+.probar {float:left;height:38px;font:bold 12px/14px arial;color:#000;text-align:center}
+#arrow_d1 {width:29px;background:url(/imgs/registration/pro-bar-bg.jpg) 0px 0px;height:38px}
+#arrow_d2 {width:29px;background:url(/imgs/registration/pro-bar-bg.jpg) -29px 0px;height:38px}
+#arrow_d3 {width:29px;background:url(/imgs/registration/pro-bar-bg.jpg) -58px 0px;height:38px}
+#text_a {background:url(/imgs/registration/pro-bar-bg-a.jpg) repeat-x top left;padding:10px 0px}
+#text_d {background:url(/imgs/registration/pro-bar-bg-d.jpg) repeat-x top left;padding:10px 0px;color:#7a7a7a}
+
+/* classes for tooltip */
+a.tooltip_icon:link,a.tooltip_icon:visited {float:left;width:11px;height:11px;display:block;background:url(/imgs/profiles/ver2/icon-set-1-v1.gif) no-repeat -97px -21px;margin:4px 0px 0px 5px;text-decoration:none}
+a.tooltip_icon:hover {float:left;width:11px;height:11px;display:block;background:url(/imgs/profiles/ver2/icon-set-1-v1.gif) no-repeat -108px -21px;text-decoration:none}
+.tt{cursor:help}
+a.tt{cursor:help}
+.tt {font:normal 12px/16px arial;color:#000;text-decoration:none}
+.tt span {display:none}
+.tt:hover {position:relative;text-decoration:none;z-index:1000}
+.tt:hover span.tooltip {display:block;position:absolute;top:0px;left:-22px;padding:15px 0 0 0;width:203px;text-align:left;text-decoration:none;z-index:2000}
+.tt.rightEnd:hover span.tooltip {right:-33px;left:auto}
+.tt:hover span.top {display:block;padding:25px 8px 0px;background: url(/imgs/profiles/ver2/bubble.gif) no-repeat top}
+.tt.rightEnd:hover span.top {background: url(/imgs/profiles/ver2/bubble-right.gif) no-repeat top}
+.tt:hover span.middle {display:block;padding:0px 8px;background:#FCFEFF url(/imgs/profiles/ver2/bubble-filler.gif) repeat-x bottom;border:solid 2px #6AA9C9;border-top:none;border-bottom:none}
+.tt:hover span.bottom {display:block;padding:3px 8px 10px;background: url(/imgs/profiles/ver2/bubble.gif) no-repeat bottom}

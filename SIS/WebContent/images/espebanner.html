@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>Flash and Image Banner</TITLE>
+<META NAME="Generator" CONTENT="Microsoft FrontPage 5.0">
+<META NAME="Author" CONTENT="Stev Chen">
+<META NAME="Keywords" CONTENT="Banner Flash Image">
+<META NAME="Description" CONTENT="Banner for rotating images and flash files">
+
+    <link rel="StyleSheet" href="espebanner.css" type="text/css" />
+    <script type="text/javascript" src="espebanner.js"></script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF">
+
+<table width="100%">
+<tr>
+    <td>
+        <script language="javascript">
+                    banner1 = new Banner('banner1');
+                    banner1.add("IMAGE", "images_template1/os.gif", 5, 200, 200,"index.html");
+                    banner1.add("IMAGE", "images_template1/agent.gif", 5, 200, 200,"index.html");
+                    banner1.add("IMAGE", "images_template1/dashboard.jpeg", 5, 200, 200,"index.html ");
+                  
+                    document.write(banner1);
+                    banner1.start();
+        </script>
+    </td>
+</tr>
+    
+</table>
+
+
+</BODY>
+</HTML>

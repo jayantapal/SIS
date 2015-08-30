@@ -1,0 +1,198 @@
+/* This CSS is used for all button in Datatable
+/*
+/* created by: Dhritiman Roy
+/*
+/*    1. Icon Buttons				<<<---------------*/
+/*    2. Icon Button Group			<<<---------------*/
+
+
+/*----->>> 1. Icon Buttons
+Refresh, Help, Config and Close buttons.  */
+
+a.iconbutton {
+	background-image: url(Sprite.IconButtons.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	width: 20px;
+}
+
+a.iconbutton-refresh {
+	background-position: 0 0;
+}
+a.iconbutton-refresh:hover {
+	background-position: 0 -22px;
+}
+a.iconbutton-help {
+	background-position: -22px 0;
+}
+a.iconbutton-help:hover {
+	background-position: -22px -22px;
+}
+a.iconbutton-config {
+	background-position: -44px 0;
+}
+a.iconbutton-config:hover {
+	background-position: -44px -22px;
+}
+a.iconbutton-close {
+	background-position: -66px 0;
+}
+a.iconbutton-close:hover {
+	background-position: -66px -22px;
+}
+a.iconbutton-about {
+	background-position: -88px 0;
+}
+a.iconbutton-about:hover {
+	background-position: -88px -22px;
+}
+a.iconbutton-export {
+	background-position: -110px 0;
+}
+a.iconbutton-export:hover {
+	background-position: -110px -22px;
+}
+a.iconbutton-info {
+	background-position: -132px 0;
+	width: 15px;
+	padding-top: 15px;
+}
+a.iconbutton-info:hover {
+	background-position: -132px -22px;
+}
+a.iconbutton-remove {
+	background-position: -149px 0;
+	width: 15px;
+	padding-top: 15px;
+}
+a.iconbutton-remove:hover {
+	background-position: -149px -22px;
+}
+a.iconbutton-edit {
+	background-position: -166px 0;
+	width: 15px;
+	padding-top: 15px;
+}
+a.iconbutton-edit:hover {
+	background-position: -166px -22px;
+}
+
+.iconbutton-deployment {
+	background-image: url(deployment.GIF);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	float: right;
+	height: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	width: 20px;
+}
+
+
+
+/*----->>> 12. Icon Button Group
+Provides structure if a panel has multiple buttons. */ 
+
+ul.iconbutton-group {
+	list-style-image: none;
+	list-style-position: inside;
+	list-style-type: none;
+	margin: 0;
+	position: absolute;
+	    top: 5px;
+	    right: 5px;
+}
+ul.iconbutton-group li {
+	display: block;
+	float: left;
+	margin-left: 3px;
+}
+ul.iconbutton-group li a.iconbutton {
+    float: none;
+}
+
+.status,
+.status-active,
+.status-inactive { 	
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	/* float: right; */
+	height: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	width: 20px;
+
+}
+.status-active {
+    background-image: url(status_green.png);    
+}
+.status-inactive {
+    background-image: url(status_red.png);    
+}
+ 
+.start-event,
+.end-event{ 
+	
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	float: right;
+	height: 0;
+	overflow: hidden;
+	padding-top: 28px;
+	width: 30px;
+
+}
+.start-event {
+    background-image: url(play.png);    
+}
+.end-event {
+    background-image: url(pause.gif);    
+}
+
+.dependency { 	
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	/* float: right; */
+	background-image: url(details_icon.gif);
+	height: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	width: 20px;
+
+}
+
+.resource { 	
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	/* float: right; */
+	background-image: url(resource.icon.png);
+	height: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	width: 20px;
+
+}
+
+.permission { 	
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	/* float: right; */
+	background-image: url(permission.icon.jpg);
+	height: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	width: 20px;	
+
+}
+
