@@ -32,6 +32,7 @@ public class AdminServlet extends HttpServlet {
     }
     public void init() 
 	  { 
+    	//assse....
 	      System.out.println("I am In init  method.........");
 	  } 
 
